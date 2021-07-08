@@ -1,0 +1,74 @@
+body{
+    background-color: #227422;
+    color: #fff;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: beige;
+    height: 100px;
+    text-align:center ;
+    width: 100%; 
+    color: #000;
+}
+
+.nombreJuego{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+}
+
+.boton1, .boton2, .boton3{
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+    height: 45px;
+    transition: 0.5s ease-in-out;
+    width: 150px;  
+}
+.boton4{
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    height: 45px;
+    transition: 0.5s ease-in-out;
+    width: 200px;  
+}
+.jugador{
+    text-align: center;
+}
+.boton1:hover{ 
+    background-color: #0a6901;
+    color: #fff;;
+}
+.boton2:hover{
+    background-color: #a7a70f;
+    color: #fff;
+}
+.boton3:hover{
+    background-color: #7a0101;
+    color: #fff;;
+}
+.boton4:hover{
+    background-color: #128ed6;
+    color: #fff;;
+}
+
+
+
+.carta{
+    margin-left: -55px;
+    left: 15px;
+    position: relative;
+    width: 100px;
+}
+
+#jugador-cartas, #compuradora-cartas{
+    height: 200px;
+}
