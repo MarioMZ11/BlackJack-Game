@@ -2,7 +2,7 @@
 
 This is a web game make it with technologies like HTML5, CSS3 and Javascript Vanila ES6.
 
-Into you can find two .js files:
+Into the path below you can find two .js files:
 
 ```
 assets/js
